@@ -18,18 +18,18 @@ const Contact: React.FC = () => {
         
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
           <a 
-            href="mailto:contact@nazip.dev" 
+            href="mailto:nazipzihni.nz@gmail.com" 
             className="bg-accent text-navy-dark px-12 py-5 font-black text-lg rounded-full hover:scale-110 transition-transform"
           >
             HIRE ME NOW
           </a>
           <div className="text-gray-500">or</div>
           <a 
-            href="https://bit.ly/4lyLiOq" 
+            href="https://github.com/nazip789" 
             target="_blank"
             className="text-white border-b-2 border-accent pb-1 font-bold hover:text-accent transition-colors"
           >
-            Visit My GitLab
+            Visit My GitHub
           </a>
         </div>
       </div>
