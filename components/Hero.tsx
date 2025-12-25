@@ -29,8 +29,8 @@ const Hero: React.FC = () => {
               View My Work
             </a>
             <div className="flex items-center gap-6 ml-4">
-              <a href="https://bit.ly/3ScYIlH" target="_blank" className="hover:text-accent transition-colors">GitHub</a>
-              <a href="https://bit.ly/4lyLiOq" target="_blank" className="hover:text-accent transition-colors">GitLab</a>
+              <a href="https://github.com/nazip789" target="_blank" className="hover:text-accent transition-colors">GitHub</a>
+              <a href="https://gitlab.com/nazip789" target="_blank" className="hover:text-accent transition-colors">GitLab</a>
             </div>
           </div>
         </div>

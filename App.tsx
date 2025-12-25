@@ -25,8 +25,8 @@ const App: React.FC = () => {
             &copy; {new Date().getFullYear()} Nazip Zihni. Professional Portfolio.
           </p>
           <div className="flex gap-8 text-gray-400">
-            <a href="https://bit.ly/3ScYIlH" className="hover:text-accent">GitHub</a>
-            <a href="https://bit.ly/4lyLiOq" className="hover:text-accent">GitLab</a>
+            <a href="https://github.com/nazip789" className="hover:text-accent">GitHub</a>
+            <a href="https://gitlab.com/nazip789" className="hover:text-accent">GitLab</a>
           </div>
           <p className="text-gray-700 text-sm">
             Crafted with React & Tailwind

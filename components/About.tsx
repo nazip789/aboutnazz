@@ -1,5 +1,6 @@
 
 import React from 'react';
+import profileImg from "../assets/profile.jpg";
 
 const About: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="aspect-square bg-accent/10 border-2 border-accent/20 rounded-2xl flex items-center justify-center overflow-hidden">
                <img 
-                src="https://picsum.photos/seed/nazip/600/600" 
+                src={profileImg} 
                 alt="Nazip Zihni Profile" 
                 className="w-full h-full object-cover opacity-80 grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -25,7 +26,7 @@ const About: React.FC = () => {
             <h3 className="text-2xl font-bold mb-4 text-accent">Nazip Zihni</h3>
             <div className="space-y-6 text-gray-400 leading-relaxed">
               <p>
-                As a Full-Stack Web Developer with 9+ years of experience, I design and build scalable, 
+                Hi, I'm as Full-Stack Web Developer with 9+ years of experience, I design and build scalable, 
                 user-centric applications by combining modern frameworks with robust architectural patterns. 
                 My expertise includes implementing MVC architecture and RESTful API integrations 
                 to ensure clean, maintainable, and high-performance codebases.
@@ -44,12 +45,12 @@ const About: React.FC = () => {
             
             <div className="grid grid-cols-2 gap-6 mt-10">
               <div className="border-l-2 border-accent pl-4">
-                <h4 className="font-bold text-white">DevOps & CI/CD</h4>
-                <p className="text-sm text-gray-500">GitLab Integration & Automation</p>
+                <h4 className="font-bold text-white">Web Development</h4>
+                <p className="text-sm text-gray-500">Full-stack</p>
               </div>
               <div className="border-l-2 border-accent pl-4">
-                <h4 className="font-bold text-white">System Architecture</h4>
-                <p className="text-sm text-gray-500">MVC & RESTful Integration</p>
+                <h4 className="font-bold text-white">Application Support</h4>
+                <p className="text-sm text-gray-500">Specialist & Optimization</p>
               </div>
             </div>
           </div>
